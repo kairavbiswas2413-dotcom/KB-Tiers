@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "kb-tiers",
+  "version": "${version}",
+  "name": "KB Tiers",
+  "description": "KB Tiers companion mod - keybind GUI to assign and view tiers",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.tiertagger.TierTaggerMod"
+    ],
+    "client": [
+      "com.example.tiertagger.client.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric": "*"
+  }
+}
